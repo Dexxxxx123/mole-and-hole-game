@@ -117,6 +117,7 @@ h1 {
 /* adjust for small screen size */
 @media (max-width: 768px) {
   h1 {
+    padding: 20px;
     font-size: 2rem;
   }
 
