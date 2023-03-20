@@ -5,7 +5,6 @@ const moles = document.querySelectorAll(".mole");
 const startBtn = document.querySelector(".start-btn");
 const levels = document.querySelector(".levels");
 const game = document.querySelector(".game");
-const hammer = document.getElementById("hammer");
 
 let lastHole;
 let timeUp = false;
