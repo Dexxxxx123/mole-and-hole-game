@@ -51,6 +51,9 @@ function peep(show, hide) {
 
 // Function to start the game
 function startGame() {
+      // Memutar audio
+    const audio = document.getElementById('background-music');
+    audio.play();
   let show, hide;
   const difficulty = difficultyLevel();
   if (difficulty === "easy") {
