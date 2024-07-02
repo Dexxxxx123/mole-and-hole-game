@@ -56,8 +56,13 @@
     </div>
 
     <!-- Audio element for background music -->
-    <audio src="file.mp3" autoplay></audio>
+    <audio id="background-music" src="file.mp3"></audio>
 
-    <script src="script.js"></script>
+    <script>
+      function startGame() {
+        document.getElementById('background-music').play();
+        // Tambahkan kode untuk memulai game di sini
+      }
+    </script>
   </body>
 </html>
