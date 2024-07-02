@@ -90,6 +90,10 @@ function hitTheMole(e) {
   if (!e.isTrusted) {
     return;
   }
+  mole.onclick = () => {
+        // Memutar suara klik
+        const clickSound = document.getElementById('click-sound');
+        clickSound.play();
   score++;
   this.parentNode.classList.remove("up");
   scoreBoard.textContent = score;
